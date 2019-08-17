@@ -29,10 +29,45 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    margin: auto;
 }
+
+.topnav {
+    display: flex;
+    list-style: none;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-weight: bold;
+    margin: 20px 50px 40px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.aboutsection {
+    font-weight: bold;
+    font-size: 18px;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+
+.top-img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+section p {
+
+}
+
+
 ol, ul {
-	list-style: none;
+    list-style: none;
+    
 }
 blockquote, q {
 	quotes: none;
@@ -58,12 +93,26 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
+    font-weight: bold;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
     line-height: 1.4;
+    font-weight: bold;
+}
+
+.road {
+    margin-bottom: 20px;
+}
+
+.future {
+    display: flex;
+    justify-content: space-around;
+}
+.text-container {
+    width: 47%;
 }
 
 .container {
@@ -71,60 +120,61 @@ p {
     margin: 0 auto;
 }
 
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    font-weight: bold;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+
+.topsection {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    display: flex;
+
+}
+
+.box {
+    flex-direction: column;
+    width: 48%;
     border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
+.bottomsection {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.button {
+    text-align: center;
+    margin-top: 20px;
+    border: solid 4px black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 40%;
 }
 
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+section img {
+    margin-bottom: 10px;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
+.letsworktogether {
+    margin-bottom: 30px;
+    width: 90%;
+    margin: auto;
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
 
 footer {
     width: 100%;
@@ -138,9 +188,96 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin-top: 30px;
 }
+
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.middle-boxes {
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+
+.boxes {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.box {
+    margin: 20px;
+}
+
+.colorful {
+    height: 100px;
+    width: 100px;
+    padding-top: 40px;
+}
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+
+}
+
+.box3 {
+    background: cadetblue;
+
+}
+
+.box4 {
+    background: coral;
+
+}
+
+.box5 {
+    background: crimson;
+
+}
+
+.box6 {
+    background: forestgreen;
+
+}
+
+.box7 {
+    background: darkorchid;
+
+}
+
+.box8 {
+    background: hotpink;
+
+}
+
+.box9 {
+    background: indigo
+    
+}
+
+.box10 {
+    background: dodgerblue;
+
+}
+
+
+.bottom-content {
+    display: flex;
+    font-weight: bold;
+}
+
+.text-container {
+    margin-bottom: 20px;
 }
